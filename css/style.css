@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,600,700,800,900');
+
+:root {
+    --dark-blue: #182848;
+    --dark-gray: #686e79;
+    --light-gray: #f9f9f9;
+    --pink: #f625ba;
+    --yellow: #d6eb5d;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: var(--dark-blue) !important;
+}
+
+.footer {
+    background-color: var(--dark-blue) !important;
+}
+
+#header-logo {
+    max-height: 32px;
+}
+
+.header-social-img {
+    max-height: 20px;
+}
+
+.jumbotron {
+    background: url('http://placehold.it/1600x500/0080ff');
+}
+
+.jumbotron-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.jumbotron-text {
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.section-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--dark-gray);
+    padding-bottom: 24px;
+}
+
+.section {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.card-title {
+    font-weight: 600;
+    color: var(--dark-blue);
+}
+
+.card-text {
+    font-size: small;
+    color: var(--dark-gray);
+    line-height: 2;
+}
+
+.card-body {
+    background-color: var(--light-gray);
+}
+
+.card-footer {
+    padding-top: 0;
+    padding-bottom: 24px;
+    border-top: none;
+}
